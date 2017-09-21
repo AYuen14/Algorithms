@@ -34,14 +34,14 @@
         /// <param name="pointerB">The pointer b.</param>
         public void Union(int pointerA, int pointerB)
         {
-            int pointAId = id[pointerA];
-            int pointBId = id[pointerB];
+            int pointAValue = id[pointerA];
+            int pointBValue = id[pointerB];
 
             for(int i = 0; i < ReturnCount(); i++)
             {
-                if(id[i] == pointAId)
+                if(id[i] == pointAValue)
                 {
-                    id[i] = pointBId;
+                    id[i] = pointBValue;
                 }
             }
         }
