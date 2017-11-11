@@ -4,14 +4,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{E659B382-6310-47AD-B69D-D8F1EA5EBCC6}</ProjectGuid>
+    <ProjectGuid>{3962F980-0304-4B54-9EE7-192027280C1B}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>AlgorithmsAndDataStructures</RootNamespace>
-    <AssemblyName>AlgorithmsAndDataStructures</AssemblyName>
-    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <RootNamespace>BigO_Notation</RootNamespace>
+    <AssemblyName>BigO_Notation</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -43,7 +44,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="QuickFindUnionFind.cs" />
+    <Compile Include="Algorithms\BaseSort.cs" />
+    <Compile Include="Algorithms\BubbleSort.cs" />
+    <Compile Include="Algorithms\InsertionSort.cs" />
+    <Compile Include="Algorithms\QueueArrayImplementation.cs" />
+    <Compile Include="Algorithms\SelectionSort.cs" />
+    <Compile Include="Algorithms\StackArrayImplementation.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

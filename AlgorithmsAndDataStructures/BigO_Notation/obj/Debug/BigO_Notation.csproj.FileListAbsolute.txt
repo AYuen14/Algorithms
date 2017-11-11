@@ -1,0 +1,13 @@
+C:\Repository\BigO_Notation\BigO_Notation\bin\Debug\BigO_Notation.exe.config
+C:\Repository\BigO_Notation\BigO_Notation\bin\Debug\BigO_Notation.exe
+C:\Repository\BigO_Notation\BigO_Notation\bin\Debug\BigO_Notation.pdb
+C:\Repository\BigO_Notation\BigO_Notation\obj\Debug\BigO_Notation.csprojResolveAssemblyReference.cache
+C:\Repository\BigO_Notation\BigO_Notation\obj\Debug\BigO_Notation.exe
+C:\Repository\BigO_Notation\BigO_Notation\obj\Debug\BigO_Notation.pdb
+C:\Platform\School\BigO_Notation\BigO_Notation\bin\Debug\BigO_Notation.exe.config
+C:\Platform\School\BigO_Notation\BigO_Notation\bin\Debug\BigO_Notation.exe
+C:\Platform\School\BigO_Notation\BigO_Notation\bin\Debug\BigO_Notation.pdb
+C:\Platform\School\BigO_Notation\BigO_Notation\obj\Debug\BigO_Notation.csprojResolveAssemblyReference.cache
+C:\Platform\School\BigO_Notation\BigO_Notation\obj\Debug\BigO_Notation.csproj.CoreCompileInputs.cache
+C:\Platform\School\BigO_Notation\BigO_Notation\obj\Debug\BigO_Notation.exe
+C:\Platform\School\BigO_Notation\BigO_Notation\obj\Debug\BigO_Notation.pdb
