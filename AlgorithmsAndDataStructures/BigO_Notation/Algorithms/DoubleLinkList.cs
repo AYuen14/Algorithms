@@ -29,6 +29,10 @@ namespace BigO_Notation.Algorithms
             }
         }
 
+        /// <summary>
+        /// Adds to the last Node.
+        /// </summary>
+        /// <param name="node">The node.</param>
         public void AddLast(Node node)
         {
             if (this.Count == 0)
@@ -37,20 +41,28 @@ namespace BigO_Notation.Algorithms
             }
             else
             {
-                this.Last = node;
                 node.Previous = this.Last;
-                this.Last = node;
+                this.Last = node;              
+                this.Last.Previous.Next = node;
             }
 
             this.Count++;
         }
 
+        /// <summary>
+        /// Adds to item to last node
+        /// </summary>
+        /// <param name="item">The item.</param>
         public void AddLast(object item)
         {
             Node node = new Node(item);
             AddLast(node);
         }
 
+        /// <summary>
+        /// Adds to the first node
+        /// </summary>
+        /// <param name="node">The node.</param>
         public void AddFirst(Node node)
         {
             if (this.Count == 0)
@@ -68,12 +80,22 @@ namespace BigO_Notation.Algorithms
             this.Count++;
         }
 
+        /// <summary>
+        /// Adds the item to first node
+        /// </summary>
+        /// <param name="item">The item.</param>
         public void AddFirst(object item)
         {
             Node node = new Node(item);
             AddFirst(node);
         }
 
+
+        /// <summary>
+        /// Removes the first.
+        /// </summary>
+        /// <returns></returns>
+        /// <exception cref="ArgumentException">This is empty link list</exception>
         public object RemoveFirst()
         {
             if(this.Count == 0)
@@ -99,6 +121,11 @@ namespace BigO_Notation.Algorithms
             return returnObject;
         }
 
+        /// <summary>
+        /// Removes the last.
+        /// </summary>
+        /// <returns></returns>
+        /// <exception cref="ArgumentException">This is empty link list</exception>
         public object RemoveLast()
         {
             if (this.Count == 0)
@@ -124,6 +151,9 @@ namespace BigO_Notation.Algorithms
             return returnObject;
         }
 
+        /// <summary>
+        /// To the array.
+        /// </summary>
         public void ToArray()
         {
             object[] array = new object[this.Count];
@@ -140,8 +170,13 @@ namespace BigO_Notation.Algorithms
             Display(array);
         }
 
-        //Merge Two linklists by alternating between list1 and list2
-        public DoubleLinkList Merge(DoubleLinkList list1, DoubleLinkList list2)
+        /// <summary>
+        /// Merges the link list alternating.
+        /// </summary>
+        /// <param name="list1">The list1.</param>
+        /// <param name="list2">The list2.</param>
+        /// <returns></returns>
+        public DoubleLinkList MergeLinkListAlternating(DoubleLinkList list1, DoubleLinkList list2)
         {
             //both lists dont have to be same size
             DoubleLinkList returnList = new DoubleLinkList();
@@ -150,8 +185,8 @@ namespace BigO_Notation.Algorithms
 
             while (temp1 != null && temp2 != null)
             {
-                returnList.AddFirst(temp1.Value);
-                returnList.AddFirst(temp2.Value);
+                returnList.AddLast(temp1.Value);
+                returnList.AddLast(temp2.Value);
 
                 temp1 = temp1.Next;
                 temp2 = temp2.Next;
@@ -159,20 +194,25 @@ namespace BigO_Notation.Algorithms
 
             while(temp1 != null)
             {
-                returnList.AddFirst(temp1.Value);
+                returnList.AddLast(temp1.Value);
                 temp1 = temp1.Next;
             }
 
             while (temp2 != null)
             {
-                returnList.AddFirst(temp2.Value);
+                returnList.AddLast(temp2.Value);
                 temp2 = temp2.Next;
             }
 
             return returnList;
         }
 
-        public DoubleLinkList RemoveDuplicates(DoubleLinkList list)
+        /// <summary>
+        /// Removes the duplicates in list.
+        /// </summary>
+        /// <param name="list">The list.</param>
+        /// <returns></returns>
+        public DoubleLinkList RemoveDuplicatesInList(DoubleLinkList list)
         {
             //the assumption is that this linklist is sorted min to max
             //if the link list contains: 10,11,11,15,15,15,20 then after running this method
@@ -185,16 +225,24 @@ namespace BigO_Notation.Algorithms
             {
                 if(returnList.Count == 0)
                 {
-                    returnList.AddFirst(temp1.Value);
+                    returnList.AddLast(temp1.Value);
                 }
                 else
                 {
-                    foreach (Node x in returnList)
+                    Node temp2 = returnList.First;
+                    bool isDuplicate = false;
+
+                    while(temp2 != null)
                     {
-                        if (x.Value != temp1.Value)
+                        if (temp2.Value.Equals(temp1.Value))
                         {
-                            returnList.AddFirst(temp1.Value);
+                            isDuplicate = true;
                         }
+                        temp2 = temp2.Next;
+                    }
+                    if(isDuplicate == false)
+                    {
+                        returnList.AddLast(temp1.Value);
                     }
                 }
                
@@ -204,14 +252,76 @@ namespace BigO_Notation.Algorithms
             return returnList;
         }
 
-        //Get Intersection of 2 link list(check for duplicates between 2 link list.)
 
+        /// <summary>
+        /// Gets the duplicates from two link list.
+        /// </summary>
+        /// <param name="list1">The list1.</param>
+        /// <param name="list2">The list2.</param>
+        /// <returns></returns>
+        public DoubleLinkList GetDuplicatesFromTwoLinkList(DoubleLinkList list1, DoubleLinkList list2)
+        {
+            DoubleLinkList returnList = new DoubleLinkList();
+            Node temp1 = list1.First;
+
+            while (temp1 != null)
+            {
+                Node temp2 = list2.First;
+                bool isDuplicate = false;
+
+                while (temp2 != null)
+                {
+                    if (temp2.Value.Equals(temp1.Value))
+                    {
+                        isDuplicate = true;
+                    }
+                    temp2 = temp2.Next;
+                }
+
+                //If Duplicate Add value
+                if (isDuplicate == true)
+                {
+                    //Check if Duplicate already exist in current Duplicate list
+                    Node duplicateNode = returnList.First;
+                    bool isDuplicateNode = false;
+
+                    while (duplicateNode != null)
+                    {
+                        if (duplicateNode.Value.Equals(temp1.Value))
+                        {
+                            isDuplicateNode = true;
+                        }
+                        duplicateNode = duplicateNode.Next;
+                    }
+
+                    //If not part of duplicate list then add value
+                    if (isDuplicateNode == false)
+                    {
+                        returnList.AddLast(temp1.Value);
+                    }
+                }
+                
+                temp1 = temp1.Next;
+            }
+
+            return returnList;
+        }
+
+        /// <summary>
+        /// Displays the specified array.
+        /// </summary>
+        /// <param name="array">The array.</param>
         private void Display(object[] array)
         {
             StringBuilder returnString = new StringBuilder();
             foreach(var x in array)
             {
                 returnString.Append(string.Format("{0},", x));
+            }
+
+            if(returnString.Length == 0)
+            {
+                returnString.Append("This is an empty list");
             }
 
             Console.WriteLine(returnString);

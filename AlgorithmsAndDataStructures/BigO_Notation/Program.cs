@@ -29,26 +29,35 @@
             //insertionSort.Sort();
 
             DoubleLinkList doubleLinkList = new DoubleLinkList();
-            doubleLinkList.AddFirst(1);
-            doubleLinkList.AddFirst(2);
-            doubleLinkList.AddFirst(2);
-            doubleLinkList.AddFirst(3);
-            doubleLinkList.AddFirst(4);
-            doubleLinkList.AddFirst(4);
-            doubleLinkList.AddFirst(5);
+            doubleLinkList.AddLast(1);
+            doubleLinkList.AddLast(2);
+            doubleLinkList.AddLast(2);
+            doubleLinkList.AddLast(3);
+            doubleLinkList.AddLast(4);
+            doubleLinkList.AddLast(4);
+            doubleLinkList.AddLast(5);
             doubleLinkList.ToArray();
-            DoubleLinkList doubleLinkList2 = doubleLinkList.RemoveDuplicates(doubleLinkList);
+
+            DoubleLinkList doubleLinkList2 = new DoubleLinkList();
+            doubleLinkList2.AddFirst(2);
+            doubleLinkList2.AddFirst(6);
+            doubleLinkList2.AddFirst(7);
+            doubleLinkList2.AddFirst(8);
+            doubleLinkList2.AddFirst(9);
+            doubleLinkList2.AddFirst(10);
             doubleLinkList2.ToArray();
-            //DoubleLinkList doubleLinkList2 = new DoubleLinkList();
-            //doubleLinkList2.AddFirst(6);
-            //doubleLinkList2.AddFirst(7);
-            //doubleLinkList2.AddFirst(8);
-            //doubleLinkList2.AddFirst(9);
-            //doubleLinkList2.AddFirst(10);
-            //doubleLinkList2.ToArray();
+
+            DoubleLinkList DuplicateList = doubleLinkList.GetDuplicatesFromTwoLinkList(doubleLinkList, doubleLinkList2);
+            Console.WriteLine("Find Duplicates in two link list");
+            DuplicateList.ToArray();
+
+            //DoubleLinkList RemoveDuplicateList = doubleLinkList.RemoveDuplicatesInList(doubleLinkList);
+            //Console.WriteLine("Removing Duplicates in link list");
+            //RemoveDuplicateList.ToArray();
 
             //DoubleLinkList mergeList = new DoubleLinkList();
             //mergeList = mergeList.Merge(doubleLinkList, doubleLinkList2);
+            //Console.WriteLine("Merging two link list");
             //mergeList.ToArray();
 
             //object obj = doubleLinkList.RemoveFirst();
