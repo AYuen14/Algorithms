@@ -24,13 +24,8 @@
             SelectionSort selectionSort = new SelectionSort(_array, sw);
             selectionSort.SortPractice();
 
-            //InsertionSort insertionSort = new InsertionSort(_array3);
-            //sw3.Start();
-            //Display(_array3);
-            //insertionSort.Sort();
-            //sw3.Stop();
-            //Display(_array3);
-            //Console.WriteLine(string.Format("Time elapsed for InsertionSort: {0}", sw3.Elapsed.Milliseconds.ToString()));
+            InsertionSort insertionSort = new InsertionSort(_array, sw);
+            insertionSort.Sort();
 
 
             //MyQueue queue = new MyQueue();

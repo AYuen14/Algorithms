@@ -28,11 +28,11 @@ namespace BigO_Notation.Algorithms
         /// <param name="array"></param>
         public static void Display(int[] array)
         {
-            string tempVariable = string.Empty; //1
+            StringBuilder tempVariable = new StringBuilder(); //1
 
             foreach (int x in array) //n
             {
-                tempVariable += string.Format("{0},", x.ToString());//n
+                tempVariable.Append(string.Format("{0},", x.ToString()));//n
             }
 
             Console.WriteLine(string.Format("{0} \n", tempVariable));

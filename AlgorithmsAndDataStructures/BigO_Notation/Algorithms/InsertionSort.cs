@@ -1,20 +1,30 @@
 ﻿namespace BigO_Notation
 {
-    using BigO_Notation.Algorithms;
     using System;
+    using System.Diagnostics;
+
+    using BigO_Notation.Algorithms;
 
     public class InsertionSort : BaseSort
     {
         private int[] _array;
 
-        public InsertionSort(int[] array)
+        private Stopwatch _stopWatch;
+
+        public InsertionSort(int[] array, Stopwatch stopWatch)
         {
             if(array == null)
             {
                 throw new ArgumentNullException(nameof(array));
             }
 
-            this._array = array;
+            if (stopWatch == null)
+            {
+                throw new ArgumentNullException(nameof(stopWatch));
+            }
+
+            this._array = CreateRandomArray(array);
+            this._stopWatch = stopWatch;
         }
 
         /// <summary>
@@ -23,7 +33,10 @@
         /// <param name="array"></param>
         public void Sort()
         {
-            for(int i = 1; i < _array.Length -1; i++)
+            Display(this._array);
+            StartTimer(this._stopWatch);
+
+            for (int i = 1; i < _array.Length -1; i++)
             {
                 int j = i;
                 while (j > 0 && _array[j] < _array[j - 1])
@@ -32,11 +45,10 @@
                     j--;
                 }
             }
-        }
 
-        public void SortPractice()
-        {
-
+            StopTimer(this._stopWatch);
+            Display(this._array);
+            DisplayTimer(this._stopWatch);
         }
     }
 

@@ -11,3 +11,9 @@ C:\Platform\School\BigO_Notation\BigO_Notation\obj\Debug\BigO_Notation.csprojRes
 C:\Platform\School\BigO_Notation\BigO_Notation\obj\Debug\BigO_Notation.csproj.CoreCompileInputs.cache
 C:\Platform\School\BigO_Notation\BigO_Notation\obj\Debug\BigO_Notation.exe
 C:\Platform\School\BigO_Notation\BigO_Notation\obj\Debug\BigO_Notation.pdb
+C:\Repository\AlgorithmsAndDataStructures\BigO_Notation\bin\Debug\BigO_Notation.exe.config
+C:\Repository\AlgorithmsAndDataStructures\BigO_Notation\obj\Debug\BigO_Notation.exe
+C:\Repository\AlgorithmsAndDataStructures\BigO_Notation\obj\Debug\BigO_Notation.pdb
+C:\Repository\AlgorithmsAndDataStructures\BigO_Notation\bin\Debug\BigO_Notation.exe
+C:\Repository\AlgorithmsAndDataStructures\BigO_Notation\bin\Debug\BigO_Notation.pdb
+C:\Repository\AlgorithmsAndDataStructures\BigO_Notation\obj\Debug\BigO_Notation.csprojResolveAssemblyReference.cache

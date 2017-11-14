@@ -51,6 +51,10 @@
             }
         }
 
+        /// <summary>
+        /// Sorts min value to the top.
+        /// </summary>
+        /// <param name="array"></param>
         public void SortPractice()
         {
             Display(this._array);
