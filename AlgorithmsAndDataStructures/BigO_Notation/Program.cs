@@ -1,6 +1,7 @@
 ﻿namespace BigO_Notation
 {
     using Algorithms;
+    using Algorithms.Base;
     using System;
     using System.Diagnostics;
 
@@ -17,16 +18,46 @@
             Stopwatch sw = new Stopwatch();
 
             //Display before sort
-            BubbleSort bubbleSort = new BubbleSort(_array, sw);
-            bubbleSort.SortPractice();
+            //BubbleSort bubbleSort = new BubbleSort(_array, sw);
+            //bubbleSort.SortPractice();
 
-            //////Display after sort
-            SelectionSort selectionSort = new SelectionSort(_array, sw);
-            selectionSort.SortPractice();
+            ////////Display after sort
+            //SelectionSort selectionSort = new SelectionSort(_array, sw);
+            //selectionSort.SortPractice();
 
-            InsertionSort insertionSort = new InsertionSort(_array, sw);
-            insertionSort.Sort();
+            //InsertionSort insertionSort = new InsertionSort(_array, sw);
+            //insertionSort.Sort();
 
+            DoubleLinkList doubleLinkList = new DoubleLinkList();
+            doubleLinkList.AddFirst(1);
+            doubleLinkList.AddFirst(2);
+            doubleLinkList.AddFirst(2);
+            doubleLinkList.AddFirst(3);
+            doubleLinkList.AddFirst(4);
+            doubleLinkList.AddFirst(4);
+            doubleLinkList.AddFirst(5);
+            doubleLinkList.ToArray();
+            DoubleLinkList doubleLinkList2 = doubleLinkList.RemoveDuplicates(doubleLinkList);
+            doubleLinkList2.ToArray();
+            //DoubleLinkList doubleLinkList2 = new DoubleLinkList();
+            //doubleLinkList2.AddFirst(6);
+            //doubleLinkList2.AddFirst(7);
+            //doubleLinkList2.AddFirst(8);
+            //doubleLinkList2.AddFirst(9);
+            //doubleLinkList2.AddFirst(10);
+            //doubleLinkList2.ToArray();
+
+            //DoubleLinkList mergeList = new DoubleLinkList();
+            //mergeList = mergeList.Merge(doubleLinkList, doubleLinkList2);
+            //mergeList.ToArray();
+
+            //object obj = doubleLinkList.RemoveFirst();
+            //Console.WriteLine(string.Format("Removing Node Obj: {0}", obj));
+            //doubleLinkList.ToArray();
+
+            //object obj2 = doubleLinkList.RemoveLast();
+            //Console.WriteLine(string.Format("Removing Node Obj: {0}", obj2));
+            //doubleLinkList.ToArray();
 
             //MyQueue queue = new MyQueue();
             //queue.Enqueue(1);
