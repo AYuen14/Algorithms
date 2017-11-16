@@ -1,13 +1,11 @@
-﻿using BigO_Notation.Algorithms.Base;
-using System;
-using System.Collections.Generic;
-using System.Collections;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace BigO_Notation.Algorithms
+﻿namespace BigO_Notation.Algorithms
 {
+    using System;
+    using System.Collections;
+    using System.Text;
+
+    using BigO_Notation.Algorithms.Base;
+
     public class DoubleLinkList : BaseLinkList
     {
         public DoubleLinkList(object item = null, Node node = null)
@@ -214,7 +212,6 @@ namespace BigO_Notation.Algorithms
         /// <returns></returns>
         public DoubleLinkList RemoveDuplicatesInList(DoubleLinkList list)
         {
-            //the assumption is that this linklist is sorted min to max
             //if the link list contains: 10,11,11,15,15,15,20 then after running this method
             //the link list should contains : 10,11,15,20
 

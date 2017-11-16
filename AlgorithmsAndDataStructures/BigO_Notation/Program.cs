@@ -28,28 +28,28 @@
             //InsertionSort insertionSort = new InsertionSort(_array, sw);
             //insertionSort.Sort();
 
-            DoubleLinkList doubleLinkList = new DoubleLinkList();
-            doubleLinkList.AddLast(1);
-            doubleLinkList.AddLast(2);
-            doubleLinkList.AddLast(2);
-            doubleLinkList.AddLast(3);
-            doubleLinkList.AddLast(4);
-            doubleLinkList.AddLast(4);
-            doubleLinkList.AddLast(5);
-            doubleLinkList.ToArray();
+            //DoubleLinkList doubleLinkList = new DoubleLinkList();
+            //doubleLinkList.AddLast(1);
+            //doubleLinkList.AddLast(2);
+            //doubleLinkList.AddLast(2);
+            //doubleLinkList.AddLast(3);
+            //doubleLinkList.AddLast(4);
+            //doubleLinkList.AddLast(4);
+            //doubleLinkList.AddLast(5);
+            //doubleLinkList.ToArray();
 
-            DoubleLinkList doubleLinkList2 = new DoubleLinkList();
-            doubleLinkList2.AddFirst(2);
-            doubleLinkList2.AddFirst(6);
-            doubleLinkList2.AddFirst(7);
-            doubleLinkList2.AddFirst(8);
-            doubleLinkList2.AddFirst(4);
-            doubleLinkList2.AddFirst(10);
-            doubleLinkList2.ToArray();
+            //DoubleLinkList doubleLinkList2 = new DoubleLinkList();
+            //doubleLinkList2.AddFirst(2);
+            //doubleLinkList2.AddFirst(6);
+            //doubleLinkList2.AddFirst(7);
+            //doubleLinkList2.AddFirst(8);
+            //doubleLinkList2.AddFirst(4);
+            //doubleLinkList2.AddFirst(10);
+            //doubleLinkList2.ToArray();
 
-            DoubleLinkList DuplicateList = doubleLinkList.GetDuplicatesFromTwoLinkList(doubleLinkList, doubleLinkList2);
-            Console.WriteLine("Find Duplicates in two link list");
-            DuplicateList.ToArray();
+            //DoubleLinkList DuplicateList = doubleLinkList.GetDuplicatesFromTwoLinkList(doubleLinkList, doubleLinkList2);
+            //Console.WriteLine("Find Duplicates in two link list");
+            //DuplicateList.ToArray();
 
             //DoubleLinkList RemoveDuplicateList = doubleLinkList.RemoveDuplicatesInList(doubleLinkList);
             //Console.WriteLine("Removing Duplicates in link list");
@@ -110,6 +110,12 @@
             //    Console.WriteLine(string.Format("{0} \n", obj));
             //}
 
+            RecursiveMethods recursive = new RecursiveMethods();
+            //recursive.DisplayInts(10);
+            //recursive.RecursiveDisplayInts(10);
+            //int x = recursive.IterativeFactorial(5);
+            int[] arraytemp = { 1, 2, 3, 4, 5, 6, 7, 8, 9 };
+            recursive.RecursiveReverseArray(arraytemp, 0, arraytemp.Length - 1);
             Console.ReadLine();
         }
 
