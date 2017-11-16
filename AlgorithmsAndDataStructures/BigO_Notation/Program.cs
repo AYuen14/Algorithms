@@ -43,7 +43,7 @@
             doubleLinkList2.AddFirst(6);
             doubleLinkList2.AddFirst(7);
             doubleLinkList2.AddFirst(8);
-            doubleLinkList2.AddFirst(9);
+            doubleLinkList2.AddFirst(4);
             doubleLinkList2.AddFirst(10);
             doubleLinkList2.ToArray();
 

@@ -281,30 +281,14 @@ namespace BigO_Notation.Algorithms
                 //If Duplicate Add value
                 if (isDuplicate == true)
                 {
-                    //Check if Duplicate already exist in current Duplicate list
-                    Node duplicateNode = returnList.First;
-                    bool isDuplicateNode = false;
-
-                    while (duplicateNode != null)
-                    {
-                        if (duplicateNode.Value.Equals(temp1.Value))
-                        {
-                            isDuplicateNode = true;
-                        }
-                        duplicateNode = duplicateNode.Next;
-                    }
-
-                    //If not part of duplicate list then add value
-                    if (isDuplicateNode == false)
-                    {
-                        returnList.AddLast(temp1.Value);
-                    }
+                    returnList.AddLast(temp1.Value);
                 }
                 
                 temp1 = temp1.Next;
             }
 
-            return returnList;
+            //Remove Duplicates
+            return RemoveDuplicatesInList(returnList);
         }
 
         /// <summary>
