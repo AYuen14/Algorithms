@@ -116,7 +116,6 @@ namespace BigO_Notation.Algorithms
 
             Display(array);
             RecursiveReverseArray(array, first + 1, last - 1);
-            Display(array);
         }
 
         /// <summary>

@@ -115,7 +115,12 @@
             //recursive.RecursiveDisplayInts(10);
             //int x = recursive.IterativeFactorial(5);
             int[] arraytemp = { 1, 2, 3, 4, 5, 6, 7, 8, 9 };
-            recursive.RecursiveReverseArray(arraytemp, 0, arraytemp.Length - 1);
+            //recursive.RecursiveReverseArray(arraytemp, 0, arraytemp.Length - 1);
+
+            BinarySearch binarySearch = new BinarySearch(arraytemp);
+            int searchValue = binarySearch.RecursiveBinarySearch(3,0, arraytemp.Length-1);
+            Console.WriteLine("Binary Search value index: {0}", searchValue);
+
             Console.ReadLine();
         }
 
