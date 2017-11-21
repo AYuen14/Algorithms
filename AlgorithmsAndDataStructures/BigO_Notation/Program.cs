@@ -4,6 +4,7 @@
     using Algorithms.Base;
     using System;
     using System.Diagnostics;
+    using System.Linq;
 
     class Program
     {
@@ -110,16 +111,25 @@
             //    Console.WriteLine(string.Format("{0} \n", obj));
             //}
 
-            RecursiveMethods recursive = new RecursiveMethods();
+            int[] arraytemp = { 20,3,15,8,25,12,6,19,33,23 };
+            int[] arraytemp2 = { 3, 7, 15, 19, 22, 27 };
+            //MergeSort mergeSort = new MergeSort();
+            //Console.WriteLine("merge sort started");
+            //mergeSort.MergeSortRecursive(arraytemp, 0, arraytemp.Length-1);
+
+            //RecursiveMethods recursive = new RecursiveMethods();
             //recursive.DisplayInts(10);
             //recursive.RecursiveDisplayInts(10);
             //int x = recursive.IterativeFactorial(5);
-            int[] arraytemp = { 1, 2, 3, 4, 5, 6, 7, 8, 9 };
+
             //recursive.RecursiveReverseArray(arraytemp, 0, arraytemp.Length - 1);
 
-            BinarySearch binarySearch = new BinarySearch(arraytemp);
-            int searchValue = binarySearch.RecursiveBinarySearch(3,0, arraytemp.Length-1);
-            Console.WriteLine("Binary Search value index: {0}", searchValue);
+            //BinarySearch binarySearch = new BinarySearch(arraytemp);
+            //int searchValue = binarySearch.RecursiveBinarySearch(3,0, arraytemp.Length-1);
+            //Console.WriteLine("Binary Search value index: {0}", searchValue);
+
+            QuickSort quickSort = new QuickSort();
+            quickSort.Sort(arraytemp, 0, arraytemp.Length - 1);
 
             Console.ReadLine();
         }

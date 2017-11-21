@@ -1,6 +1,4 @@
-﻿
-
-namespace BigO_Notation.Algorithms
+﻿namespace BigO_Notation.Algorithms
 {
     using System;
 

@@ -50,7 +50,9 @@
     <Compile Include="Algorithms\BubbleSort.cs" />
     <Compile Include="Algorithms\DoubleLinkList.cs" />
     <Compile Include="Algorithms\InsertionSort.cs" />
+    <Compile Include="Algorithms\MergeSort.cs" />
     <Compile Include="Algorithms\QueueArrayImplementation.cs" />
+    <Compile Include="Algorithms\QuickSort.cs" />
     <Compile Include="Algorithms\RecursiveMethods.cs" />
     <Compile Include="Algorithms\SelectionSort.cs" />
     <Compile Include="Algorithms\SingleLinkList.cs" />
