@@ -49,6 +49,8 @@
     <Compile Include="Algorithms\BinarySearch.cs" />
     <Compile Include="Algorithms\BubbleSort.cs" />
     <Compile Include="Algorithms\DoubleLinkList.cs" />
+    <Compile Include="Algorithms\Hashing.cs" />
+    <Compile Include="Algorithms\HashTable.cs" />
     <Compile Include="Algorithms\InsertionSort.cs" />
     <Compile Include="Algorithms\MergeSort.cs" />
     <Compile Include="Algorithms\QueueArrayImplementation.cs" />

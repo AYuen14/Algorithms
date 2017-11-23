@@ -111,8 +111,8 @@
             //    Console.WriteLine(string.Format("{0} \n", obj));
             //}
 
-            int[] arraytemp = { 20,3,15,8,25,12,6,19,33,23 };
-            int[] arraytemp2 = { 3, 7, 15, 19, 22, 27 };
+            //int[] arraytemp = { 20,3,15,8,25,12,6,19,33,23 };
+            //int[] arraytemp2 = { 3, 7, 15, 19, 22, 27 };
             //MergeSort mergeSort = new MergeSort();
             //Console.WriteLine("merge sort started");
             //mergeSort.MergeSortRecursive(arraytemp, 0, arraytemp.Length-1);
@@ -128,8 +128,10 @@
             //int searchValue = binarySearch.RecursiveBinarySearch(3,0, arraytemp.Length-1);
             //Console.WriteLine("Binary Search value index: {0}", searchValue);
 
-            QuickSort quickSort = new QuickSort();
-            quickSort.Sort(arraytemp, 0, arraytemp.Length - 1);
+            //QuickSort quickSort = new QuickSort();
+            //quickSort.Sort(arraytemp, 0, arraytemp.Length - 1);
+
+            Hashing hash = new Hashing();
 
             Console.ReadLine();
         }
