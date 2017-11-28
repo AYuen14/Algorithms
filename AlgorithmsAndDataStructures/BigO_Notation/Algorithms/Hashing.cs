@@ -8,102 +8,117 @@
     {
         private string[] lastNames;
 
-        public Hashing()
+        public Hashing(bool isDisplayMenu = false)
         {
-            DisplayMenu();
+            if(isDisplayMenu)
+            {
+                DisplayMenu();
 
-            while (true)
-            {    
-                int selection;
-                int.TryParse(Console.ReadLine(), out selection);
-                int collisionCounter = 0;
-                HashSet<int> hashSet = new HashSet<int>();
-
-                switch (selection)
+                while (true)
                 {
-                    case 1:
-                        Console.WriteLine("\nHash1");
-                        foreach (string name in lastNames)
-                        {
-                            int hashValue = Hash1(name, 2 * lastNames.Length);
+                    int selection;
+                    int.TryParse(Console.ReadLine(), out selection);
+                    int collisionCounter = 0;
+                    HashSet<int> hashSet = new HashSet<int>();
 
-                            if (!hashSet.Add(hashValue))
+                    switch (selection)
+                    {
+                        case 1:
+                            Console.WriteLine("\nHash1");
+                            foreach (string name in lastNames)
                             {
-                                collisionCounter++;
-                            }
-                            Console.WriteLine(string.Format("\n {0, -15}, {1}", name, hashValue.ToString()));
-                        }
-                        break;
-                    case 2:
-                        Console.WriteLine("\nHash2");
-                        foreach (string name in lastNames)
-                        {
-                            int hashValue = Hash2(name, 2 * lastNames.Length);
+                                int hashValue = Hash1(name, 2 * lastNames.Length);
 
-                            if (!hashSet.Add(hashValue))
+                                if (!hashSet.Add(hashValue))
+                                {
+                                    collisionCounter++;
+                                }
+                                Console.WriteLine(string.Format("\n {0, -15}, {1}", name, hashValue.ToString()));
+                            }
+                            break;
+                        case 2:
+                            Console.WriteLine("\nHash2");
+                            foreach (string name in lastNames)
                             {
-                                collisionCounter++;
-                            }
-                            Console.WriteLine(string.Format("\n {0, -15}, {1}", name, hashValue.ToString()));
-                        }
-                        break;
-                    case 3:
-                        Console.WriteLine("\nMultiplication_Hash");
-                        foreach (string name in lastNames)
-                        {
-                            Random rand = new Random();
-                            int hashValue = Multiplication_Hash(rand.Next(0, 1000) * name.Length);
+                                int hashValue = Hash2(name, 2 * lastNames.Length);
 
-                            if (!hashSet.Add(hashValue))
+                                if (!hashSet.Add(hashValue))
+                                {
+                                    collisionCounter++;
+                                }
+                                Console.WriteLine(string.Format("\n {0, -15}, {1}", name, hashValue.ToString()));
+                            }
+                            break;
+                        case 3:
+                            Console.WriteLine("\nMultiplication_Hash");
+                            foreach (string name in lastNames)
                             {
-                                collisionCounter++;
+                                Random rand = new Random();
+                                int hashValue = Multiplication_Hash(rand.Next(0, 1000) * name.Length);
+
+                                if (!hashSet.Add(hashValue))
+                                {
+                                    collisionCounter++;
+                                }
+
+                                Console.WriteLine(string.Format("\n {0, -15}, {1}", name, hashValue.ToString()));
                             }
-
-                            Console.WriteLine(string.Format("\n {0, -15}, {1}", name, hashValue.ToString()));
-                        }
-                        break;
-                    case 4:
-                        Console.WriteLine("\nelfHash");
-                        foreach (string name in lastNames)
-                        {
-                            long hashValue = elfHash(name);
-                            int index = mod(hashValue, 2*lastNames.Length);
-
-                            if (!hashSet.Add(index))
+                            break;
+                        case 4:
+                            Console.WriteLine("\nelfHash");
+                            foreach (string name in lastNames)
                             {
-                                collisionCounter++;
-                            }
+                                long hashValue = elfHash(name);
+                                int index = mod(hashValue, 2 * lastNames.Length);
 
-                            Console.WriteLine(string.Format("\n {0, -15}, {1}, {2}", name, hashValue.ToString(), index));
-                        }
-                        break;
-                    case 5:
-                        Console.WriteLine("\nsumOfShiftedChars");
-                        foreach (string name in lastNames)
-                        {
-                            int hashValue = sumOfShiftedChars(name);
-                            int index = mod(hashValue, 2*lastNames.Length);
-                            if (!hashSet.Add(index))
-                            {
-                                collisionCounter++;
+                                if (!hashSet.Add(index))
+                                {
+                                    collisionCounter++;
+                                }
+
+                                Console.WriteLine(string.Format("\n {0, -15}, {1}, {2}", name, hashValue.ToString(), index));
                             }
-                            Console.WriteLine(string.Format("\n {0, -15}, {1}, {2}", name, hashValue.ToString(), index));
-                        }
-                        break;
-                    case 9:
-                        Console.WriteLine("\nExit App");
-                        break;
-                    default:
-                        Console.WriteLine("\n");
-                        break;
+                            break;
+                        case 5:
+                            Console.WriteLine("\nsumOfShiftedChars");
+                            foreach (string name in lastNames)
+                            {
+                                int hashValue = sumOfShiftedChars(name);
+                                int index = mod(hashValue, 2 * lastNames.Length);
+                                if (!hashSet.Add(index))
+                                {
+                                    collisionCounter++;
+                                }
+                                Console.WriteLine(string.Format("\n {0, -15}, {1}, {2}", name, hashValue.ToString(), index));
+                            }
+                            break;
+                        case 6:
+                            Console.WriteLine("\nSFoldHash");
+                            foreach (string name in lastNames)
+                            {
+                                int hashValue = sfoldHash(name, lastNames.Length);
+                                if (!hashSet.Add(hashValue))
+                                {
+                                    collisionCounter++;
+                                }
+                                Console.WriteLine(string.Format("\n {0, -15}, {1}, {2}", name, hashValue.ToString(), hashValue));
+                            }
+                            break;
+                        case 9:
+                            Console.WriteLine("\nExit App");
+                            break;
+                        default:
+                            Console.WriteLine("\n");
+                            break;
+                    }
+
+                    //pause
+                    Console.WriteLine(string.Format("\n\n Number of collisions: {0}", collisionCounter.ToString()));
+                    Console.WriteLine("\n\n Hit enter to continue");
+                    Console.ReadLine();
+                    Console.Clear();
                 }
-
-                //pause
-                Console.WriteLine(string.Format("\n\n Number of collisions: {0}", collisionCounter.ToString()));
-                Console.WriteLine("\n\n Hit enter to continue");
-                Console.ReadLine();
-                Console.Clear();
-            }      
+            }
         }
 
         //using division method
@@ -187,10 +202,38 @@
             return hashValue;
         }
 
+        public int sfoldHash(string s, int table_size)
+        {
+            int intLength = s.Length / 4;
+            long sum = 0;
+            for (int j = 0; j < intLength; j++)
+            {
+                //char[] c = s.Substring(j * 4, (j * 4) + 4).ToCharArray();
+                char[] c = s.Substring(j * 4, 4).ToCharArray();
+                long mult = 1;
+                for (int k = 0; k < c.Length; k++)
+                {
+                    sum += c[k] * mult;
+                    mult *= 256;
+                }
+            }
+            char[] c2 = s.Substring(intLength * 4).ToCharArray();
+            long mult2 = 1;
+            for (int k = 0; k < c2.Length; k++)
+            {
+                sum += c2[k] * mult2;
+                mult2 *= 256;
+            }
+            //map to an index in the array
+            return (int)(Math.Abs(sum) % table_size);
+        }
+
+
         #region Private Methods
 
         /// <summary>
         /// Gets the index of the table size
+        /// We use this as compression.
         /// </summary>
         /// <param name="hashValue"></param>
         /// <param name="tableSize"></param>
@@ -224,7 +267,7 @@
         private void DisplayMenu()
         {
             //Read the file
-            this.lastNames = File.ReadAllLines("c:/BigO_Notation/BigO_Notation/bin/Debug/lastnames.txt");
+            this.lastNames = File.ReadAllLines("C:/Repository/AlgorithmsAndDataStructures/BigO_Notation/bin/Debug/lastnames.txt");
             this.lastNames = GetRandomSetOfNames(25);
 
             Console.WriteLine("Enter selection: ");
@@ -233,6 +276,7 @@
             Console.WriteLine("\n t3. Multiplication_Hash");
             Console.WriteLine("\n t4. elfHash");
             Console.WriteLine("\n t5. sumOfShiftedChars");
+            Console.WriteLine("\n t6. sfoldHash");
             Console.WriteLine("\n t9. Exit App");
             Console.WriteLine("\n ----------------------------------");
         }

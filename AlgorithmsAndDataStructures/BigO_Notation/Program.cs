@@ -131,8 +131,19 @@
             //QuickSort quickSort = new QuickSort();
             //quickSort.Sort(arraytemp, 0, arraytemp.Length - 1);
 
-            Hashing hash = new Hashing();
+            //Hashing hash = new Hashing();
 
+            //HashTable hashTable = new HashTable(17);
+            //hashTable.Add(37, "John");
+            //hashTable.Add(55, "Michelle");
+            //hashTable.Add(23, "Karen");
+            //hashTable.Add(66, "Steve");
+            //hashTable.Add(15, "Tim");
+            //hashTable.Display();
+
+            HashTableDictionaryExample hashTableExample = new HashTableDictionaryExample();
+            //hashTableExample.Get();
+            hashTableExample.Remove();
             Console.ReadLine();
         }
 
