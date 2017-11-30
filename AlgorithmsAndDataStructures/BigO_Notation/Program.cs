@@ -141,9 +141,14 @@
             //hashTable.Add(15, "Tim");
             //hashTable.Display();
 
-            HashTableDictionaryExample hashTableExample = new HashTableDictionaryExample();
-            //hashTableExample.Get();
-            hashTableExample.Remove();
+            //HashTableDictionaryExample hashTableExample = new HashTableDictionaryExample();
+            ////hashTableExample.Get();
+            //hashTableExample.Remove();
+
+            Tree tree = new Tree(null);
+            tree.DisplayNodes(Tree.Traversal.InOrder);
+            tree.DisplayNodes(Tree.Traversal.PreOrder);
+            tree.DisplayNodes(Tree.Traversal.PostOrder);
             Console.ReadLine();
         }
 
