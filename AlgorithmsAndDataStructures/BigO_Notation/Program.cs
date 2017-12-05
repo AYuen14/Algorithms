@@ -149,6 +149,15 @@
             tree.DisplayNodes(Tree.Traversal.InOrder);
             tree.DisplayNodes(Tree.Traversal.PreOrder);
             tree.DisplayNodes(Tree.Traversal.PostOrder);
+            bool isBalance = tree.IsBalanced();
+            Console.WriteLine(string.Format("Tree is balance: {0}", isBalance));
+            Console.WriteLine("Deleting key 40");
+            tree.Delete(40);
+            tree.DisplayNodes(Tree.Traversal.PreOrder);
+            isBalance = tree.IsBalanced();
+            Console.WriteLine(string.Format("Tree is balance: {0}", isBalance));
+
+            //dictionary to SortedDictionary<int,book>
             Console.ReadLine();
         }
 
