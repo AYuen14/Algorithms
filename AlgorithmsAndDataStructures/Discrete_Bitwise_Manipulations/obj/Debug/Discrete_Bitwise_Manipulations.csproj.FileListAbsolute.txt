@@ -1,0 +1,39 @@
+F:\BC\ALGORITHMS&DATASTRUCTURES\SPRING-2013(5-4_To_6-15)\Day_6\Discrete_Bitwise_Manipulations\bin\Debug\Discrete_Bitwise_Manipulations.exe.config
+F:\BC\ALGORITHMS&DATASTRUCTURES\SPRING-2013(5-4_To_6-15)\Day_6\Discrete_Bitwise_Manipulations\bin\Debug\Discrete_Bitwise_Manipulations.exe
+F:\BC\ALGORITHMS&DATASTRUCTURES\SPRING-2013(5-4_To_6-15)\Day_6\Discrete_Bitwise_Manipulations\bin\Debug\Discrete_Bitwise_Manipulations.pdb
+F:\BC\ALGORITHMS&DATASTRUCTURES\SPRING-2013(5-4_To_6-15)\Day_6\Discrete_Bitwise_Manipulations\obj\Debug\Discrete_Bitwise_Manipulations.csprojResolveAssemblyReference.cache
+F:\BC\ALGORITHMS&DATASTRUCTURES\SPRING-2013(5-4_To_6-15)\Day_6\Discrete_Bitwise_Manipulations\obj\Debug\Discrete_Bitwise_Manipulations.exe
+F:\BC\ALGORITHMS&DATASTRUCTURES\SPRING-2013(5-4_To_6-15)\Day_6\Discrete_Bitwise_Manipulations\obj\Debug\Discrete_Bitwise_Manipulations.pdb
+E:\BC\ALGORITHMS&DATASTRUCTURES\SUMMER-2013(7-13_To_8-24)\Day-6\Discrete_Bitwise_Manipulations\bin\Debug\Discrete_Bitwise_Manipulations.exe.config
+E:\BC\ALGORITHMS&DATASTRUCTURES\SUMMER-2013(7-13_To_8-24)\Day-6\Discrete_Bitwise_Manipulations\obj\Debug\Discrete_Bitwise_Manipulations.exe
+E:\BC\ALGORITHMS&DATASTRUCTURES\SUMMER-2013(7-13_To_8-24)\Day-6\Discrete_Bitwise_Manipulations\obj\Debug\Discrete_Bitwise_Manipulations.pdb
+E:\BC\ALGORITHMS&DATASTRUCTURES\SUMMER-2013(7-13_To_8-24)\Day-6\Discrete_Bitwise_Manipulations\bin\Debug\Discrete_Bitwise_Manipulations.exe
+E:\BC\ALGORITHMS&DATASTRUCTURES\SUMMER-2013(7-13_To_8-24)\Day-6\Discrete_Bitwise_Manipulations\bin\Debug\Discrete_Bitwise_Manipulations.pdb
+E:\BC\ALGORITHMS&DATASTRUCTURES\SUMMER-2013(7-13_To_8-24)\Day-6\Discrete_Bitwise_Manipulations\obj\Debug\Discrete_Bitwise_Manipulations.csprojResolveAssemblyReference.cache
+F:\BC\ALGORITHMS&DATASTRUCTURES\SUMMER-2013(7-13_To_8-24)\Day-6\Discrete_Bitwise_Manipulations\bin\Debug\Discrete_Bitwise_Manipulations.exe.config
+F:\BC\ALGORITHMS&DATASTRUCTURES\SUMMER-2013(7-13_To_8-24)\Day-6\Discrete_Bitwise_Manipulations\obj\Debug\Discrete_Bitwise_Manipulations.exe
+F:\BC\ALGORITHMS&DATASTRUCTURES\SUMMER-2013(7-13_To_8-24)\Day-6\Discrete_Bitwise_Manipulations\obj\Debug\Discrete_Bitwise_Manipulations.pdb
+F:\BC\ALGORITHMS&DATASTRUCTURES\SUMMER-2013(7-13_To_8-24)\Day-6\Discrete_Bitwise_Manipulations\bin\Debug\Discrete_Bitwise_Manipulations.exe
+F:\BC\ALGORITHMS&DATASTRUCTURES\SUMMER-2013(7-13_To_8-24)\Day-6\Discrete_Bitwise_Manipulations\bin\Debug\Discrete_Bitwise_Manipulations.pdb
+F:\BC\ALGORITHMS&DATASTRUCTURES\SUMMER-2013(7-13_To_8-24)\Day-6\Discrete_Bitwise_Manipulations\obj\Debug\Discrete_Bitwise_Manipulations.csprojResolveAssemblyReference.cache
+E:\Old360GHDD\BC\ALGORITHMS&DATASTRUCTURES\SUMMER-2013(7-13_To_8-24)\Day-6\Discrete_Bitwise_Manipulations\bin\Debug\Discrete_Bitwise_Manipulations.exe.config
+E:\Old360GHDD\BC\ALGORITHMS&DATASTRUCTURES\SUMMER-2013(7-13_To_8-24)\Day-6\Discrete_Bitwise_Manipulations\obj\Debug\Discrete_Bitwise_Manipulations.exe
+E:\Old360GHDD\BC\ALGORITHMS&DATASTRUCTURES\SUMMER-2013(7-13_To_8-24)\Day-6\Discrete_Bitwise_Manipulations\obj\Debug\Discrete_Bitwise_Manipulations.pdb
+E:\Old360GHDD\BC\ALGORITHMS&DATASTRUCTURES\SUMMER-2013(7-13_To_8-24)\Day-6\Discrete_Bitwise_Manipulations\bin\Debug\Discrete_Bitwise_Manipulations.exe
+E:\Old360GHDD\BC\ALGORITHMS&DATASTRUCTURES\SUMMER-2013(7-13_To_8-24)\Day-6\Discrete_Bitwise_Manipulations\bin\Debug\Discrete_Bitwise_Manipulations.pdb
+E:\Old360GHDD\BC\ALGORITHMS&DATASTRUCTURES\SUMMER-2013(7-13_To_8-24)\Day-6\Discrete_Bitwise_Manipulations\obj\Debug\Discrete_Bitwise_Manipulations.csprojResolveAssemblyReference.cache
+E:\Old360GHDD\BC\ALGORITHMS&DATASTRUCTURES\ALGORITHM_MARCH_10_2014\DAY-7(3-31-14)\Discrete_Bitwise_Manipulations\bin\Debug\Discrete_Bitwise_Manipulations.exe.config
+E:\Old360GHDD\BC\ALGORITHMS&DATASTRUCTURES\ALGORITHM_MARCH_10_2014\DAY-7(3-31-14)\Discrete_Bitwise_Manipulations\obj\Debug\Discrete_Bitwise_Manipulations.exe
+E:\Old360GHDD\BC\ALGORITHMS&DATASTRUCTURES\ALGORITHM_MARCH_10_2014\DAY-7(3-31-14)\Discrete_Bitwise_Manipulations\obj\Debug\Discrete_Bitwise_Manipulations.pdb
+E:\Old360GHDD\BC\ALGORITHMS&DATASTRUCTURES\ALGORITHM_MARCH_10_2014\DAY-7(3-31-14)\Discrete_Bitwise_Manipulations\bin\Debug\Discrete_Bitwise_Manipulations.exe
+E:\Old360GHDD\BC\ALGORITHMS&DATASTRUCTURES\ALGORITHM_MARCH_10_2014\DAY-7(3-31-14)\Discrete_Bitwise_Manipulations\bin\Debug\Discrete_Bitwise_Manipulations.pdb
+E:\Old360GHDD\BC\ALGORITHMS&DATASTRUCTURES\ALGORITHM_MARCH_10_2014\DAY-7(3-31-14)\Discrete_Bitwise_Manipulations\obj\Debug\Discrete_Bitwise_Manipulations.csprojResolveAssemblyReference.cache
+E:\Old360GHDD\BC\ALGORITHMS&DATASTRUCTURES\SUMMER-2015\DAY-8\Discrete_Bitwise_Manipulations\bin\Debug\Discrete_Bitwise_Manipulations.exe.config
+E:\Old360GHDD\BC\ALGORITHMS&DATASTRUCTURES\SUMMER-2015\DAY-8\Discrete_Bitwise_Manipulations\obj\Debug\Discrete_Bitwise_Manipulations.exe
+E:\Old360GHDD\BC\ALGORITHMS&DATASTRUCTURES\SUMMER-2015\DAY-8\Discrete_Bitwise_Manipulations\obj\Debug\Discrete_Bitwise_Manipulations.pdb
+E:\Old360GHDD\BC\ALGORITHMS&DATASTRUCTURES\SUMMER-2015\DAY-8\Discrete_Bitwise_Manipulations\bin\Debug\Discrete_Bitwise_Manipulations.exe
+E:\Old360GHDD\BC\ALGORITHMS&DATASTRUCTURES\SUMMER-2015\DAY-8\Discrete_Bitwise_Manipulations\bin\Debug\Discrete_Bitwise_Manipulations.pdb
+E:\Old360GHDD\BC\ALGORITHMS&DATASTRUCTURES\SUMMER-2015\DAY-8\Discrete_Bitwise_Manipulations\obj\Debug\Discrete_Bitwise_Manipulations.csprojResolveAssemblyReference.cache
+C:\Users\adam.yuen\Desktop\BIT MANIPULATIONS\Discrete_Bitwise_Manipulations\bin\Debug\Discrete_Bitwise_Manipulations.exe.config
+C:\Users\adam.yuen\Desktop\BIT MANIPULATIONS\Discrete_Bitwise_Manipulations\obj\Debug\Discrete_Bitwise_Manipulations.exe
+C:\Users\adam.yuen\Desktop\BIT MANIPULATIONS\Discrete_Bitwise_Manipulations\obj\Debug\Discrete_Bitwise_Manipulations.pdb

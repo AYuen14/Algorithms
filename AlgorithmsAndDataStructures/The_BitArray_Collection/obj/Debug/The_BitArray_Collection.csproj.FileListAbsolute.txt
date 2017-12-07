@@ -1,0 +1,33 @@
+c:\users\lhoucine\documents\visual studio 2012\Projects\The_BitArray_Collection\bin\Debug\The_BitArray_Collection.exe.config
+c:\users\lhoucine\documents\visual studio 2012\Projects\The_BitArray_Collection\bin\Debug\The_BitArray_Collection.exe
+c:\users\lhoucine\documents\visual studio 2012\Projects\The_BitArray_Collection\bin\Debug\The_BitArray_Collection.pdb
+c:\users\lhoucine\documents\visual studio 2012\Projects\The_BitArray_Collection\obj\Debug\The_BitArray_Collection.csprojResolveAssemblyReference.cache
+c:\users\lhoucine\documents\visual studio 2012\Projects\The_BitArray_Collection\obj\Debug\The_BitArray_Collection.exe
+c:\users\lhoucine\documents\visual studio 2012\Projects\The_BitArray_Collection\obj\Debug\The_BitArray_Collection.pdb
+F:\BC\ALGORITHMS&DATASTRUCTURES\SPRING-2013(5-4_To_6-15)\Day_6\The_BitArray_Collection\bin\Debug\The_BitArray_Collection.exe.config
+F:\BC\ALGORITHMS&DATASTRUCTURES\SPRING-2013(5-4_To_6-15)\Day_6\The_BitArray_Collection\obj\Debug\The_BitArray_Collection.exe
+F:\BC\ALGORITHMS&DATASTRUCTURES\SPRING-2013(5-4_To_6-15)\Day_6\The_BitArray_Collection\obj\Debug\The_BitArray_Collection.pdb
+F:\BC\ALGORITHMS&DATASTRUCTURES\SPRING-2013(5-4_To_6-15)\Day_6\The_BitArray_Collection\bin\Debug\The_BitArray_Collection.exe
+F:\BC\ALGORITHMS&DATASTRUCTURES\SPRING-2013(5-4_To_6-15)\Day_6\The_BitArray_Collection\bin\Debug\The_BitArray_Collection.pdb
+F:\BC\ALGORITHMS&DATASTRUCTURES\SPRING-2013(5-4_To_6-15)\Day_6\The_BitArray_Collection\obj\Debug\The_BitArray_Collection.csprojResolveAssemblyReference.cache
+F:\BC\ALGORITHMS&DATASTRUCTURES\SUMMER-2013(7-13_To_8-24)\Day-6\The_BitArray_Collection\bin\Debug\The_BitArray_Collection.exe.config
+F:\BC\ALGORITHMS&DATASTRUCTURES\SUMMER-2013(7-13_To_8-24)\Day-6\The_BitArray_Collection\obj\Debug\The_BitArray_Collection.exe
+F:\BC\ALGORITHMS&DATASTRUCTURES\SUMMER-2013(7-13_To_8-24)\Day-6\The_BitArray_Collection\obj\Debug\The_BitArray_Collection.pdb
+F:\BC\ALGORITHMS&DATASTRUCTURES\SUMMER-2013(7-13_To_8-24)\Day-6\The_BitArray_Collection\bin\Debug\The_BitArray_Collection.exe
+F:\BC\ALGORITHMS&DATASTRUCTURES\SUMMER-2013(7-13_To_8-24)\Day-6\The_BitArray_Collection\bin\Debug\The_BitArray_Collection.pdb
+F:\BC\ALGORITHMS&DATASTRUCTURES\SUMMER-2013(7-13_To_8-24)\Day-6\The_BitArray_Collection\obj\Debug\The_BitArray_Collection.csprojResolveAssemblyReference.cache
+E:\Old360GHDD\BC\ALGORITHMS&DATASTRUCTURES\ALGORITHM_MARCH_10_2014\DAY-7(3-31-14)\The_BitArray_Collection\bin\Debug\The_BitArray_Collection.exe.config
+E:\Old360GHDD\BC\ALGORITHMS&DATASTRUCTURES\ALGORITHM_MARCH_10_2014\DAY-7(3-31-14)\The_BitArray_Collection\obj\Debug\The_BitArray_Collection.exe
+E:\Old360GHDD\BC\ALGORITHMS&DATASTRUCTURES\ALGORITHM_MARCH_10_2014\DAY-7(3-31-14)\The_BitArray_Collection\obj\Debug\The_BitArray_Collection.pdb
+E:\Old360GHDD\BC\ALGORITHMS&DATASTRUCTURES\ALGORITHM_MARCH_10_2014\DAY-7(3-31-14)\The_BitArray_Collection\bin\Debug\The_BitArray_Collection.exe
+E:\Old360GHDD\BC\ALGORITHMS&DATASTRUCTURES\ALGORITHM_MARCH_10_2014\DAY-7(3-31-14)\The_BitArray_Collection\bin\Debug\The_BitArray_Collection.pdb
+E:\Old360GHDD\BC\ALGORITHMS&DATASTRUCTURES\ALGORITHM_MARCH_10_2014\DAY-7(3-31-14)\The_BitArray_Collection\obj\Debug\The_BitArray_Collection.csprojResolveAssemblyReference.cache
+E:\Old360GHDD\BC\ALGORITHMS&DATASTRUCTURES\SUMMER-2015\DAY-8\The_BitArray_Collection\bin\Debug\The_BitArray_Collection.exe.config
+E:\Old360GHDD\BC\ALGORITHMS&DATASTRUCTURES\SUMMER-2015\DAY-8\The_BitArray_Collection\obj\Debug\The_BitArray_Collection.exe
+E:\Old360GHDD\BC\ALGORITHMS&DATASTRUCTURES\SUMMER-2015\DAY-8\The_BitArray_Collection\obj\Debug\The_BitArray_Collection.pdb
+E:\Old360GHDD\BC\ALGORITHMS&DATASTRUCTURES\SUMMER-2015\DAY-8\The_BitArray_Collection\bin\Debug\The_BitArray_Collection.exe
+E:\Old360GHDD\BC\ALGORITHMS&DATASTRUCTURES\SUMMER-2015\DAY-8\The_BitArray_Collection\bin\Debug\The_BitArray_Collection.pdb
+E:\Old360GHDD\BC\ALGORITHMS&DATASTRUCTURES\SUMMER-2015\DAY-8\The_BitArray_Collection\obj\Debug\The_BitArray_Collection.csprojResolveAssemblyReference.cache
+C:\Users\adam.yuen\Desktop\BIT MANIPULATIONS\The_BitArray_Collection\bin\Debug\The_BitArray_Collection.exe.config
+C:\Users\adam.yuen\Desktop\BIT MANIPULATIONS\The_BitArray_Collection\obj\Debug\The_BitArray_Collection.exe
+C:\Users\adam.yuen\Desktop\BIT MANIPULATIONS\The_BitArray_Collection\obj\Debug\The_BitArray_Collection.pdb
