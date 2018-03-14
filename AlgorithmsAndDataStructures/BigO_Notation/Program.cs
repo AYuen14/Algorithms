@@ -2,6 +2,7 @@
 {
     using Algorithms;
     using Algorithms.Base;
+    using LeetCode;
     using System;
     using System.Diagnostics;
     using System.Linq;
@@ -17,6 +18,10 @@
         {
             ////Initialize stop watch
             Stopwatch sw = new Stopwatch();
+
+            Easy easyCodes = new Easy();
+            int output = easyCodes.NumJewelsInStones("ebd", "bbb");
+            Console.WriteLine("Expected Answer:" + output.ToString());
 
             //Display before sort
             //BubbleSort bubbleSort = new BubbleSort(_array, sw);
@@ -145,17 +150,17 @@
             ////hashTableExample.Get();
             //hashTableExample.Remove();
 
-            Tree tree = new Tree(null);
-            tree.DisplayNodes(Tree.Traversal.InOrder);
-            tree.DisplayNodes(Tree.Traversal.PreOrder);
-            tree.DisplayNodes(Tree.Traversal.PostOrder);
-            bool isBalance = tree.IsBalanced();
-            Console.WriteLine(string.Format("Tree is balance: {0}", isBalance));
-            Console.WriteLine("Deleting key 40");
-            tree.Delete(40);
-            tree.DisplayNodes(Tree.Traversal.PreOrder);
-            isBalance = tree.IsBalanced();
-            Console.WriteLine(string.Format("Tree is balance: {0}", isBalance));
+            //Tree tree = new Tree(null);
+            //tree.DisplayNodes(Tree.Traversal.InOrder);
+            //tree.DisplayNodes(Tree.Traversal.PreOrder);
+            //tree.DisplayNodes(Tree.Traversal.PostOrder);
+            //bool isBalance = tree.IsBalanced();
+            //Console.WriteLine(string.Format("Tree is balance: {0}", isBalance));
+            //Console.WriteLine("Deleting key 40");
+            //tree.Delete(40);
+            //tree.DisplayNodes(Tree.Traversal.PreOrder);
+            //isBalance = tree.IsBalanced();
+            //Console.WriteLine(string.Format("Tree is balance: {0}", isBalance));
 
             //dictionary to SortedDictionary<int,book>
             Console.ReadLine();

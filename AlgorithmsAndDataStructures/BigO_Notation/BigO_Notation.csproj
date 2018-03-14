@@ -62,6 +62,7 @@
     <Compile Include="Algorithms\SelectionSort.cs" />
     <Compile Include="Algorithms\SingleLinkList.cs" />
     <Compile Include="Algorithms\StackArrayImplementation.cs" />
+    <Compile Include="LeetCode\Easy.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
