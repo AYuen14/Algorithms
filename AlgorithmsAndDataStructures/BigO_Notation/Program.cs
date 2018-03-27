@@ -4,6 +4,7 @@
     using Algorithms.Base;
     using BigO_Notation.CodeWars;
     using BigO_Notation.LeetCode;
+    using LeetCode;
     using System;
     using System.Diagnostics;
     using System.Linq;
@@ -161,8 +162,6 @@
             //tree.DisplayNodes(Tree.Traversal.PreOrder);
             //isBalance = tree.IsBalanced();
             //Console.WriteLine(string.Format("Tree is balance: {0}", isBalance));
-
-
 
             //dictionary to SortedDictionary<int,book>
             Console.ReadLine();
