@@ -64,6 +64,8 @@
     <Compile Include="Algorithms\SelectionSort.cs" />
     <Compile Include="Algorithms\SingleLinkList.cs" />
     <Compile Include="Algorithms\StackArrayImplementation.cs" />
+    <Compile Include="AVLTree\BinaryTree.cs" />
+    <Compile Include="AVLTree\TreeNode.cs" />
     <Compile Include="Interview Questions\Groupon.cs" />
     <Compile Include="CodeWars\Easy.cs" />
     <Compile Include="LeetCode\Easy.cs" />

@@ -10,6 +10,7 @@
     using System.Collections.Generic;
     using System.Diagnostics;
     using System.Linq;
+    using AVLTree;
 
     class Program
     {
@@ -30,7 +31,9 @@
             //StackWithTwoQueues q = new StackWithTwoQueues();
 
             //CodeWars.Easy easy = new CodeWars.Easy();
-            LeetCode.Easy easy = new LeetCode.Easy();
+            //LeetCode.Easy easy = new LeetCode.Easy();
+
+            BinaryTree bt = new BinaryTree(null);
 
 
             //Display before sort
