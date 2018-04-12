@@ -65,6 +65,7 @@
     <Compile Include="Algorithms\SingleLinkList.cs" />
     <Compile Include="Algorithms\StackArrayImplementation.cs" />
     <Compile Include="Interview Questions\Groupon.cs" />
+    <Compile Include="CodeWars\Easy.cs" />
     <Compile Include="LeetCode\Easy.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

@@ -3,6 +3,8 @@
     using Algorithms;
     using Algorithms.Base;
     using Interview_Questions;
+    using BigO_Notation.CodeWars;
+    using BigO_Notation.LeetCode;
     using LeetCode;
     using System;
     using System.Collections.Generic;
@@ -27,7 +29,8 @@
 
             //StackWithTwoQueues q = new StackWithTwoQueues();
 
-            Easy leetCodeEasy = new Easy();
+            //CodeWars.Easy easy = new CodeWars.Easy();
+            LeetCode.Easy easy = new LeetCode.Easy();
 
 
             //Display before sort

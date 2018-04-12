@@ -23,6 +23,13 @@ C:\School\AlgorithmsAndDataStructures\BigO_Notation\bin\Debug\BigO_Notation.pdb
 C:\School\AlgorithmsAndDataStructures\BigO_Notation\obj\Debug\BigO_Notation.csprojResolveAssemblyReference.cache
 C:\School\AlgorithmsAndDataStructures\BigO_Notation\obj\Debug\BigO_Notation.exe
 C:\School\AlgorithmsAndDataStructures\BigO_Notation\obj\Debug\BigO_Notation.pdb
+C:\School\AdamAlgorithms\AlgorithmsAndDataStructures\BigO_Notation\bin\Debug\BigO_Notation.exe.config
+C:\School\AdamAlgorithms\AlgorithmsAndDataStructures\BigO_Notation\bin\Debug\BigO_Notation.exe
+C:\School\AdamAlgorithms\AlgorithmsAndDataStructures\BigO_Notation\bin\Debug\BigO_Notation.pdb
+C:\School\AdamAlgorithms\AlgorithmsAndDataStructures\BigO_Notation\obj\Debug\BigO_Notation.csprojResolveAssemblyReference.cache
+C:\School\AdamAlgorithms\AlgorithmsAndDataStructures\BigO_Notation\obj\Debug\BigO_Notation.csproj.CoreCompileInputs.cache
+C:\School\AdamAlgorithms\AlgorithmsAndDataStructures\BigO_Notation\obj\Debug\BigO_Notation.exe
+C:\School\AdamAlgorithms\AlgorithmsAndDataStructures\BigO_Notation\obj\Debug\BigO_Notation.pdb
 C:\AdamSandBox\AlgorithmsAndDataStructures\BigO_Notation\bin\Debug\BigO_Notation.exe.config
 C:\AdamSandBox\AlgorithmsAndDataStructures\BigO_Notation\obj\Debug\BigO_Notation.exe
 C:\AdamSandBox\AlgorithmsAndDataStructures\BigO_Notation\obj\Debug\BigO_Notation.pdb
