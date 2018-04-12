@@ -2,8 +2,10 @@
 {
     using Algorithms;
     using Algorithms.Base;
+    using Interview_Questions;
     using LeetCode;
     using System;
+    using System.Collections.Generic;
     using System.Diagnostics;
     using System.Linq;
 
@@ -19,9 +21,14 @@
             ////Initialize stop watch
             Stopwatch sw = new Stopwatch();
 
-            Easy easyCodes = new Easy();
-            int output = easyCodes.NumJewelsInStones("ebd", "bbb");
-            Console.WriteLine("Expected Answer:" + output.ToString());
+            //Groupon groupon = new Groupon();
+
+            //QueueWithTwoStacks q = new QueueWithTwoStacks();
+
+            //StackWithTwoQueues q = new StackWithTwoQueues();
+
+            Easy leetCodeEasy = new Easy();
+
 
             //Display before sort
             //BubbleSort bubbleSort = new BubbleSort(_array, sw);
