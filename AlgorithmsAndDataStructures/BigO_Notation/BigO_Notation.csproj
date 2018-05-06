@@ -71,6 +71,9 @@
     <Compile Include="LeetCode\Easy.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TutorialTeachers\Delegates.cs" />
+    <Compile Include="TutorialTeachers\Events\NumberSubscriber.cs" />
+    <Compile Include="TutorialTeachers\Events\PrintHelperPublisher.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

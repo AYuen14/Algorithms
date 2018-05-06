@@ -11,6 +11,8 @@
     using System.Diagnostics;
     using System.Linq;
     using AVLTree;
+    using TutorialTeachers;
+    using TutorialTeachers.Events;
 
     class Program
     {
@@ -24,6 +26,12 @@
             ////Initialize stop watch
             Stopwatch sw = new Stopwatch();
 
+            //Delegates testdelegate = new Delegates();
+
+            NumberSubscriber myNumber = new NumberSubscriber(10000);
+            myNumber.PrintMoney();
+            myNumber.PrintNumber();
+
             //Groupon groupon = new Groupon();
 
             //QueueWithTwoStacks q = new QueueWithTwoStacks();
@@ -33,7 +41,7 @@
             //CodeWars.Easy easy = new CodeWars.Easy();
             //LeetCode.Easy easy = new LeetCode.Easy();
 
-            BinaryTree bt = new BinaryTree(null);
+            //BinaryTree bt = new BinaryTree(null);
 
 
             //Display before sort
