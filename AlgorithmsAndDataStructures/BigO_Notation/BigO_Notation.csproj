@@ -66,14 +66,31 @@
     <Compile Include="Algorithms\StackArrayImplementation.cs" />
     <Compile Include="AVLTree\BinaryTree.cs" />
     <Compile Include="AVLTree\TreeNode.cs" />
+    <Compile Include="DesignPatterns\MyFactoryPattern.cs" />
+    <Compile Include="DesignPatterns\MySingleton.cs" />
     <Compile Include="Interview Questions\Groupon.cs" />
     <Compile Include="CodeWars\Easy.cs" />
     <Compile Include="LeetCode\Easy.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TutorialTeachers\AnonymousMethods.cs" />
+    <Compile Include="TutorialTeachers\AnonymousTypes.cs" />
+    <Compile Include="TutorialTeachers\Collections\MyArrayList.cs" />
+    <Compile Include="TutorialTeachers\Collections\MyHashtable.cs" />
+    <Compile Include="TutorialTeachers\Collections\MySortedList.cs" />
+    <Compile Include="TutorialTeachers\CovarianceAndContravariance.cs" />
     <Compile Include="TutorialTeachers\Delegates.cs" />
     <Compile Include="TutorialTeachers\Events\NumberSubscriber.cs" />
     <Compile Include="TutorialTeachers\Events\PrintHelperPublisher.cs" />
+    <Compile Include="TutorialTeachers\MyExceptionHandling.cs" />
+    <Compile Include="TutorialTeachers\Myfiles.cs" />
+    <Compile Include="TutorialTeachers\MyGenericClass.cs" />
+    <Compile Include="TutorialTeachers\MyGenericCollection.cs" />
+    <Compile Include="TutorialTeachers\MyIndexer.cs" />
+    <Compile Include="TutorialTeachers\MyPartialClass.cs" />
+    <Compile Include="TutorialTeachers\MyStaticClass.cs" />
+    <Compile Include="TutorialTeachers\MyStaticDirective.cs" />
+    <Compile Include="TutorialTeachers\NullableTypes.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

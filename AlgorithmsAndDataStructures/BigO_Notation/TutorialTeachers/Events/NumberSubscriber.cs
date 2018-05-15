@@ -19,9 +19,9 @@ namespace BigO_Notation.TutorialTeachers.Events
             _printHelper.beforePrintEvent += printHelper_beforePrintEvent;
         }
 
-        private void printHelper_beforePrintEvent()
+        private void printHelper_beforePrintEvent(string message)
         {
-            Console.WriteLine("BeforPrintEventHandler: PrintHelper is going to print a value");
+            Console.WriteLine("BeforePrintEvent fires from {0}", message);
         }
 
         public int Value
