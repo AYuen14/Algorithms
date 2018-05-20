@@ -6,20 +6,20 @@ using System.Threading.Tasks;
 
 namespace BigO_Notation.DesignPatterns
 {
-    public sealed class MySingleton : IDisposable
+    public sealed class MySingletonPattern : IDisposable
     {
         //Volatile keyword ensures that instatiation is complete
         //before it can be accesed further helping with thread safety
-        private static volatile MySingleton _instance;
+        private static volatile MySingletonPattern _instance;
         private static object _syncLock = new object();
         private bool _disposed;
 
-        private MySingleton()
+        private MySingletonPattern()
         {
         }
 
         //uses a pattern known as double check locking
-        public static MySingleton Instance
+        public static MySingletonPattern Instance
         {
             get
             {
@@ -33,7 +33,7 @@ namespace BigO_Notation.DesignPatterns
                 {
                     if(_instance == null)
                     {
-                        _instance = new MySingleton();
+                        _instance = new MySingletonPattern();
                     }
                 }
 

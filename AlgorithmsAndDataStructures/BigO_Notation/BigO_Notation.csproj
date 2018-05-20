@@ -66,8 +66,9 @@
     <Compile Include="Algorithms\StackArrayImplementation.cs" />
     <Compile Include="AVLTree\BinaryTree.cs" />
     <Compile Include="AVLTree\TreeNode.cs" />
+    <Compile Include="DesignPatterns\MyDecoratorPattern.cs" />
     <Compile Include="DesignPatterns\MyFactoryPattern.cs" />
-    <Compile Include="DesignPatterns\MySingleton.cs" />
+    <Compile Include="DesignPatterns\MySingletonPattern.cs" />
     <Compile Include="Interview Questions\Groupon.cs" />
     <Compile Include="CodeWars\Easy.cs" />
     <Compile Include="LeetCode\Easy.cs" />

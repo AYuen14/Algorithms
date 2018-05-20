@@ -38,8 +38,10 @@
             ////Initialize stop watch
             Stopwatch sw = new Stopwatch();
 
-            var x = MyFactoryPattern.Create();
-            x.GetRandomNumber();
+            Pizza basicPizza = new TomatoSauce(new Mozarella(new PlainPizza()));
+
+            Console.WriteLine("Ingrediants: {0}", basicPizza.GetDescription());
+            Console.WriteLine("Cost: {0}", basicPizza.Getcost().ToString());
 
             Console.ReadLine();
         }
